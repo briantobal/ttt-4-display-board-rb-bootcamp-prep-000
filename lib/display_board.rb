@@ -12,11 +12,10 @@ def display_board (board)
 end 
 
 def display_board (board)
-  print "   ", "|", "   ", "|", "   " 
+  print " #{x}  ", "|", " #{x}  ", "|", " #{x}  " 
   puts "\n-----------\n"
-  print "   ", "|", "   ", "|", "   " 
+  print " #{x}  ", "|", "  #{x} ", "|", " #{x}  " 
   puts "\n-----------\n"
-  print "   ", "|", "   ", "|", "   \n"
+  print " #{x}  ", "|", " #{x}  ", "|", " #{x}  \n"
 end 
 
-"#{x}"
