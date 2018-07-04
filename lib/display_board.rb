@@ -4,14 +4,6 @@
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
 def display_board (board)
-  print "   ", "|", "   ", "|", "   " 
-  puts "\n-----------\n"
-  print "   ", "|", "   ", "|", "   " 
-  puts "\n-----------\n"
-  print "   ", "|", "   ", "|", "   \n"
-end 
-
-def display_board (board)
   print " #{board[1]}  ", "|", " #{board[2]}  ", "|", " #{board[3]}  " 
   puts "\n-----------\n"
   print " #{board[4]}  ", "|", "  #{board[5]} ", "|", " #{board[6]}  " 
