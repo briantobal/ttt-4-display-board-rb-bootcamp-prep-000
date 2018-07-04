@@ -2,9 +2,8 @@
 # out the current state.
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
 
-def display_board 
+def display_board (board)
   print "   ", "|", "   ", "|", "   " 
   puts "\n-----------\n"
   print "   ", "|", "   ", "|", "   " 
