@@ -10,3 +10,13 @@ def display_board (board)
   puts "\n-----------\n"
   print "   ", "|", "   ", "|", "   \n"
 end 
+
+def display_board (board)
+  print "   ", "|", "   ", "|", "   " 
+  puts "\n-----------\n"
+  print "   ", "|", "   ", "|", "   " 
+  puts "\n-----------\n"
+  print "   ", "|", "   ", "|", "   \n"
+end 
+
+"#{x}"
