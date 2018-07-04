@@ -8,6 +8,6 @@ def display_board (board)
   puts "\n-----------\n"
   print " #{board[3]} ", "|", " #{board[4]} ", "|", " #{board[5]} " 
   puts "\n-----------\n"
-  print " #{board[6]} ", "|", "#{board[7]} ", "|", " #{board[8]} \n"
+  print " #{board[6]} ", "|", " #{board[7]} ", "|", " #{board[8]} \n"
 end 
 
